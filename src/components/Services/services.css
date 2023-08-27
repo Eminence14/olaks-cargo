@@ -1,0 +1,23 @@
+.services {
+  margin: 8em;
+  background-image: url(./images/world-map.png);
+}
+.service-card {
+  gap: 0.8em;
+  align-items: flex-start;
+  padding: 2.7em;
+}
+.service-card h5 {
+  text-transform: uppercase;
+  font-size: 1em;
+  font-family: MontVar;
+  font-weight: bold;
+  line-height: 1.8em;
+  color: #0a0a0a;
+}
+.service-card p {
+  color: #535353;
+  font-size: 0.85rem;
+  line-height: 1.8em;
+  font-family: "MontVar";
+}

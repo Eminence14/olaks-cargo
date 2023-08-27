@@ -1,0 +1,87 @@
+section.form-wrapper {
+    position: relative;
+}
+div.form-container {
+  min-height: 100dvh;
+  padding: 4em 3.5em;
+  background-color: #f4f4f4;
+  position: relative;
+  /* right: -2em; */
+}
+.form-container h4 {
+  text-align: center;
+  margin-bottom: 2em;
+  font-family: MontVar, sans-serif;
+  color: #0a0a0a;
+}
+.form-container form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5em 2.5em;
+  grid-template-areas:
+    "name subject"
+    "mail phone"
+    "service service"
+    "message message"
+    "button button";
+}
+.form-container form > div {
+  background-color: white;
+  padding: 0.4em 0.7em;
+  border: 1px solid lightgray;
+}
+.form-container form > div > label {
+  font-size: 0.7rem;
+  font-weight: bold;
+  color: #838383;
+  border: #555;
+  margin-bottom: 1em;
+}
+.form-container form > div > input {
+  display: block;
+  width: 100%;
+  padding: 0.3em 0;
+  margin-top: 0.5em;
+}
+.form-container form > div > input::placeholder {
+  font-size: 1.05em;
+  color: #adadad;
+}
+.form-container form div:nth-child(1) {
+  grid-area: name;
+}
+.form-container form div:nth-child(2) {
+  grid-area: subject;
+}
+.form-container form div:nth-child(3) {
+  grid-area: mail;
+}
+.form-container form div:nth-child(4) {
+  grid-area: phone;
+}
+.form-container form div:nth-child(5) {
+  grid-area: service;
+}
+.form-container form div:nth-child(6) {
+  grid-area: message;
+}
+
+.message-rec {
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.message-rec textarea {
+  width: 100%;
+}
+.form-container button.button {
+  grid-area: button;
+  margin: 0 auto;
+  width: fit-content;
+}
+.message-rec select {
+  width: 100%;
+  font-family: MontVar, sans-serif;
+}
+.form-container button.button {
+  padding: 1.2em 2em;
+}

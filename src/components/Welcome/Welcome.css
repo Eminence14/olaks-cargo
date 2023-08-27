@@ -1,0 +1,60 @@
+.welcome .heading {
+  gap: 1em;
+}
+.welcome .heading > span {
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+.welcome .heading > span:nth-child(1) {
+  font-size: 0.9em;
+  color: #bababa;
+}
+.welcome .heading > span:nth-child(2) {
+  font-size: 1.8rem;
+  color: #0a0a0a;
+}
+.welcome hr {
+  height: 3px;
+  width: 50px;
+  background-color: #0d5195;
+}
+.welcome-cards {
+  padding: 2em;
+  gap: 2em;
+}
+.welcome-card {
+  position: relative;
+}
+.welcome-card:hover .card-overlay {
+    background: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.8)
+  );
+}
+.card-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.1),
+    rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  );
+}
+.welcome-card-text {
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    gap: 1em;
+}
+.welcome-card-text>span {
+    text-transform: uppercase;
+    font-family: MontVar, sans-serif;
+    font-weight: bolder;
+    color: white;
+    font-size: 1.1rem;
+}

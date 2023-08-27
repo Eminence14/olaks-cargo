@@ -1,0 +1,85 @@
+.hero-container .swiper-slide {
+  position: relative;
+}
+.hero-container .swiper-slide .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+}
+.hero-container .swiper-slide > img.hero-images {
+  width: 100%;
+  height: 100svh;
+  object-fit: cover;
+}
+.hero-container .swiper-slide .in-text {
+  color: white;
+  position: absolute;
+  right: 13%;
+  bottom: 30%;
+}
+.hero-container .swiper-slide .in-text > span {
+  display: block;
+  text-align: right;
+}
+.hero-container .swiper-slide .in-text > span:nth-child(1) {
+  font-size: 3.3rem;
+  margin-bottom: 0.4em;
+}
+.hero-container .swiper-slide .in-text > span:nth-child(2) {
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 0.9rem;
+  margin-right: -2em;
+}
+.swiper .swiper-button-prev,
+.swiper .swiper-button-next {
+  color: #ffffff;
+  margin: 0 2em;
+}
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  color: #f1f7fca0;
+}
+
+/* hero side note */
+.hero-side-note {
+  clip-path: polygon(
+    0% 0%,
+    100% 9%,
+    100% 75%,
+    75% 75%,
+    77% 86%,
+    70% 77%,
+    0% 75%
+  );
+  background-color: #181834;
+  color: white;
+  width: 95%;
+  margin: 0 auto;
+  border-radius: 3px;
+  position: relative;
+  top: -50px;
+  z-index: 1;
+  padding: 5em 2em 9em;
+  justify-content: space-between;
+}
+.note-item {
+  align-items: flex-start;
+  gap: 1.5em;
+  flex: 1;
+  font-size: 0.8rem;
+}
+.note-text {
+  padding-top: 1em;
+  align-items: flex-start;
+  gap: 1em;
+}
+.note-text h3 {
+  text-transform: uppercase;
+}
+.note-text span {
+  color: rgba(255, 255, 255, 0.62);
+}

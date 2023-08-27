@@ -1,0 +1,52 @@
+.facts-wrapper {
+  background-color: #181834;
+  color: white;
+}
+.facts-container {
+  padding: 8em 0 10em;
+}
+.facts-container header h4 {
+  color: rgba(255, 255, 255, 0.28);
+  font-weight: bold;
+  font-family: MontVar, sans-serif;
+}
+.facts-container h1 {
+  font-family: MontVar, sans-serif;
+  font-weight: bold;
+  margin: 1em 0;
+  font-size: 1.7rem;
+}
+.facts-main {
+    margin-top: 3em;
+    gap: 2em;
+}
+.fact-row {
+    flex: 1;
+    justify-content: space-between;
+}
+.fact-card {
+    padding: 1em;
+    justify-content: space-between;
+    gap: 3em;
+}
+.fact-card-left {
+    font-size: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    font-family: MontVar, sans-serif;
+    font-weight: bold;
+}
+.fact-card-right {
+    align-items: flex-start;
+    gap: 1.5em;
+}
+.fact-card h5 {
+    font-family: MontVar, sans-serif;
+    font-weight: bold;
+}
+.fact-card-right p {
+    line-height: 2em;
+    color: rgba(255, 255, 255, 0.35);
+}

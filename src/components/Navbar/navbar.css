@@ -1,0 +1,25 @@
+.nav-container {
+    background: #181834;
+    justify-content: space-between;
+    padding: 0 2em;
+    height: 125px;
+}
+.nav-container nav {
+    gap: 3em;
+}
+.nav-container a {
+    color: white;
+    font-weight: bold;
+    font-size: .8rem;
+}
+.nav-container button {
+    padding: 1.2em 1.7em;
+    background-color: #0d5195;
+    transition: all 200ms ease-in;
+    font-family: 'Open sans', sans-serif;
+    font-size: 1em;
+    margin-left: 4em;
+}
+.nav-container button:hover {
+    background-color: #0a4177;
+}

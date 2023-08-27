@@ -1,0 +1,20 @@
+.ready-wrapper {
+    background-color: #f8f8f8;
+}
+.ready-container {
+    margin: 0 1em;
+    padding: 6em 0;
+    justify-content: space-between;
+}
+.ready-container h4 {
+    font-family: MontVar, sans-serif;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+.ready-container p {
+    color: #a3a3a3;
+    font-size: 1.2rem;
+}
+.ready-container button {
+    padding: 1.2em 3.5em;
+}
