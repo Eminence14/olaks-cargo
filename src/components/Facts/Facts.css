@@ -50,3 +50,22 @@
     line-height: 2em;
     color: rgba(255, 255, 255, 0.35);
 }
+
+
+
+
+
+
+
+@media screen and (max-width:375px) {
+  .facts-container header {
+    text-align: center;
+  }
+  .fact-row, .fact-card {
+    flex-direction: column;
+    gap: 0;
+  }
+  .fact-card-left {
+    width: 100%;
+  }
+}

@@ -6,7 +6,6 @@ div.form-container {
   padding: 4em 3.5em;
   background-color: #f4f4f4;
   position: relative;
-  /* right: -2em; */
 }
 .form-container h4 {
   text-align: center;
@@ -84,4 +83,26 @@ div.form-container {
 }
 .form-container button.button {
   padding: 1.2em 2em;
+}
+
+
+
+
+
+
+@media screen and (max-width:375px) {
+  section.form-wrapper {
+    margin-top: 8em;
+    padding: 0 1em;
+  }
+  div.form-container {
+    padding: 4em 2.5em;
+  }
+  .form-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em .5em;
+    margin-top: 3em;
+  }
+  
 }

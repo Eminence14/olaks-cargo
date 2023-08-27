@@ -10,21 +10,21 @@
   position: relative;
 }
 @font-face {
-  font-family: 'Open sans';
-  src: url('./assets/fonts/OpenSans-Regular.ttf');
+  font-family: "Open sans";
+  src: url("./assets/fonts/OpenSans-Regular.ttf");
 }
 
 @font-face {
-  font-family: 'Montserrat';
-  src: url('./assets/fonts/Montserrat-Regular.ttf');
+  font-family: "Montserrat";
+  src: url("./assets/fonts/Montserrat-Regular.ttf");
 }
 @font-face {
   font-family: MontVar;
-  src: url('./assets/fonts/Montserrat-VariableFont_wght.ttf');
+  src: url("./assets/fonts/Montserrat-VariableFont_wght.ttf");
 }
 @font-face {
   font-family: OpenVar;
-  src: url('./assets/fonts/OpenSans-VariableFont_wdth\,wght.ttf')
+  src: url("./assets/fonts/OpenSans-VariableFont_wdth\,wght.ttf");
 }
 
 /* general styles */
@@ -32,7 +32,7 @@ body {
   font-family: Montserrat, sans-serif;
 }
 p {
-  font-family: 'Open-sans', sans-serif
+  font-family: "Open-sans", sans-serif;
 }
 .flex {
   display: flex;
@@ -49,7 +49,7 @@ p {
   padding: 1.2em 1.7em;
   background-color: #0d5195;
   transition: all 200ms ease-in;
-  font-family: 'Open sans', sans-serif;
+  font-family: "Open sans", sans-serif;
   margin-left: 4em;
   color: white;
   font-weight: 900;
@@ -70,4 +70,20 @@ p {
   width: 55px;
   height: 4px;
   background-color: #0d5195;
+}
+
+@media screen and (max-width: 375px) {
+  :root {
+    font-size: 14px;
+  }
+  .button {
+    margin: 0;
+  }
+  .quote-section {
+    margin: 0;
+    flex-direction: column;
+  }
+  .quote-section > section {
+    width: 100%;
+  }
 }

@@ -26,7 +26,7 @@
   position: relative;
 }
 .welcome-card:hover .card-overlay {
-    background: linear-gradient(
+  background: linear-gradient(
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.6),
     rgba(0, 0, 0, 0.7),
@@ -40,21 +40,36 @@
   background: linear-gradient(
     rgba(0, 0, 0, 0.1),
     rgba(0, 0, 0, 0.3),
-    rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.5)
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.7)
   );
 }
 .welcome-card-text {
-    position: absolute;
-    bottom: 15%;
-    left: 50%;
-    transform: translateX(-50%);
-    gap: 1em;
+  position: absolute;
+  bottom: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+  gap: 1em;
 }
-.welcome-card-text>span {
-    text-transform: uppercase;
-    font-family: MontVar, sans-serif;
-    font-weight: bolder;
-    color: white;
-    font-size: 1.1rem;
+.welcome-card-text > span {
+  text-transform: uppercase;
+  font-family: MontVar, sans-serif;
+  font-weight: bolder;
+  color: white;
+  font-size: 1.1rem;
+}
+
+@media screen and (max-width: 375px) {
+  .welcome .welcome-cards {
+    flex-direction: column;
+    gap: 0;
+  }
+  .welcome-card:hover .card-overlay {
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.7)
+    );
+  }
 }

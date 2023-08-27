@@ -21,3 +21,19 @@
   line-height: 1.8em;
   font-family: "MontVar";
 }
+
+
+@media screen and (max-width: 375px) {
+  .services {
+    flex-direction: column;
+    margin: 2em 0em;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  .service-card h5{
+    font-size: 1.1rem;
+  }
+  .service-card p {
+    font-size: 1rem;
+  }
+}

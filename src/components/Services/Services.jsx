@@ -12,36 +12,36 @@ const Services = () => {
         <FiTruck size={35} color="#0d5195" />
         <h5>forwarding services</h5>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic,
-          reiciendis! Ex inventore tempore ipsa, eum illum iure expedita
-          voluptas ratione, ab molestiae quidem ipsum laudantium!
+          Interactively generate covalent architectures whereas world-class
+          leadership skills. Interactively generate covalent architectures
+          whereas world-class leadership skills
         </p>
       </div>
       <div className="flexCol service-card">
         <BsBoxSeam size={35} color="#0d5195" />
         <h5>transport of packaged goods</h5>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic,
-          reiciendis! Ex inventore tempore ipsa, eum illum iure expedita
-          voluptas ratione, ab molestiae quidem ipsum laudantium!
+          Interactively generate covalent architectures whereas world-class
+          leadership skills. Interactively generate covalent architectures
+          whereas world-class leadership skills
         </p>
       </div>
       <div className="flexCol service-card">
         <TbWorldBolt size={35} color="#0d5195" />
         <h5>international road transport</h5>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic,
-          reiciendis! Ex inventore tempore ipsa, eum illum iure expedita
-          voluptas ratione, ab molestiae quidem ipsum laudantium!
+          Interactively generate covalent architectures whereas world-class
+          leadership skills. Interactively generate covalent architectures
+          whereas world-class leadership skills
         </p>
       </div>
       <div className="flexCol service-card">
         <LuWarehouse size={35} color="#0d5195" />
         <h5>warehousing and storage</h5>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic,
-          reiciendis! Ex inventore tempore ipsa, eum illum iure expedita
-          voluptas ratione, ab molestiae quidem ipsum laudantium!
+          Interactively generate covalent architectures whereas world-class
+          leadership skills. Interactively generate covalent architectures
+          whereas world-class leadership skills
         </p>
       </div>
     </div>

@@ -13,17 +13,16 @@ const Footer = () => {
   return (
     <footer className="flex">
       <div className="flexCol footer-desc">
-        <img src="./images/logo.svg" alt="" className="footer_logo_img"/>
+        <img src="./images/logo.svg" alt="" className="footer_logo_img" />
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita ex
-          quos consectetur neque? Nam deserunt quia rem fugiat animi veritatis
-          atque vero sunt commodi adipisci culpa necessitatibus numquam maiores
-          dolor provident eius, placeat, ducimus distinctio nihil amet minus,
-          sapiente error corrupti suscipit! Sapiente, ut repellat! Mod.
+          Conveniently administrate resource maximizing meta-services vis-a-vis
+          alternative platforms. Phosfluorescently generate interoperable
+          processes with principle-centered mindshare. Competently foster
+          premier value and client-focused schemas.
         </p>
       </div>
       <div>
-        <nav className=" flexCol footer-nav">
+        <nav className="flexCol footer-nav">
           <Link to="/home">HOME</Link>
           <Link to="/about">COMPANY</Link>
           <Link to="contact">GLOBAL COVERAGE</Link>

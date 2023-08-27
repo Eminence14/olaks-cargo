@@ -1,63 +1,87 @@
 footer {
-    background-color: #1c1c1c;
-    padding: 6em 2em;
+  background-color: #1c1c1c;
+  padding: 6em 2em;
 }
 footer > div {
-    flex: 1;
+  flex: 1;
 }
-.footer-desc{
-    align-items: flex-start;
+.footer-desc {
+  align-items: flex-start;
 }
 .footer-desc p {
-    line-height: 1.8em;
-    font-size: .8em;
-    color: rgba(255, 255, 255, .35);
-    font-family: Montserrat;
+  line-height: 1.8em;
+  font-size: 0.8em;
+  color: rgba(255, 255, 255, 0.35);
+  font-family: Montserrat;
 }
 nav.footer-nav {
-    gap: 1.5em;
-    align-items: flex-start;
-    transform: translateX(30%);
+  gap: 1.5em;
+  align-items: flex-start;
+  transform: translateX(30%);
 }
 nav.footer-nav a {
-    color: rgba(255, 255, 255, .50);
-    font-size: .8em;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.8em;
 }
-nav.footer-nav a:hover{
-    color: rgba(255, 255, 255, .80);
-    box-shadow: 0 2px 0 0 #0d5195;
+nav.footer-nav a:hover {
+  color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 2px 0 0 #0d5195;
 }
 .socials {
-    gap: 1.5em;
-    align-items: flex-start;
+  gap: 1.5em;
+  align-items: flex-start;
 }
-.socials .flexCol{
-    align-items: flex-start;
-    gap: 1.1em;
+.socials .flexCol {
+  align-items: flex-start;
+  gap: 1.1em;
 }
-.socials .flexCol>h4 {
-    color: rgba(255, 255, 255, .80);
-    text-transform: uppercase;
-    font-size: .8em;
+.socials .flexCol > h4 {
+  color: rgba(255, 255, 255, 0.8);
+  text-transform: uppercase;
+  font-size: 0.8em;
 }
-.socials .flexCol>div {
-    display: flex;
-    align-items: center;
-    gap: 1em;
+.socials .flexCol > div {
+  display: flex;
+  align-items: center;
+  gap: 1em;
 }
 .socials span {
-    display: inline-block;
-    font-size: .8rem;
-    color: rgba(255, 255, 255, .35);
+  display: inline-block;
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.35);
 }
 .social-icons {
-    padding: .7em;
-    color: #484848;
-    background-color: #252525;
+  padding: 0.7em;
+  color: #484848;
+  background-color: #252525;
 }
 .social-icons:hover {
-    color: #c1c1c1;
-    background-color: #323232
+  color: #c1c1c1;
+  background-color: #323232;
 }
-footer .footer_logo_img{
+
+@media screen and (max-width: 375px) {
+  footer {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 1em;
+  }
+  .footer-desc p {
+    font-size: 1rem;
+    line-height: 2em;
+  }
+  nav.footer-nav {
+    transform: none;
+    gap: 1em;
+    margin: 3em 0;
+  }
+  nav.footer-nav a {
+    font-size: 1rem;
+  }
+  .socials .flexCol > div {
+    gap: 0.5em;
+  }
+  .social-icons {
+    padding: 0.8em;
+  }
 }

@@ -21,12 +21,12 @@ const Gallery = () => {
           <img src="./images/gall_07.jpg" alt="" />
           <img src="./images/gall_08.jpg" alt="" />
           <img src="./images/gall_09.jpg" alt="" />
-          <img src="./images/gall_02.jpg" alt="" />
-          <img src="./images/gall_03.jpg" alt="" />
-          <img src="./images/gall_04.jpg" alt="" />
-          <img src="./images/gall_07.jpg" alt="" />
-          <img src="./images/gall_08.jpg" alt="" />
-          <img src="./images/gall_09.jpg" alt="" />
+          <img className="gallery-images-duplicate" src="./images/gall_02.jpg" alt="" />
+          <img className="gallery-images-duplicate" src="./images/gall_03.jpg" alt="" />
+          <img className="gallery-images-duplicate" src="./images/gall_04.jpg" alt="" />
+          <img className="gallery-images-duplicate" src="./images/gall_07.jpg" alt="" />
+          <img className="gallery-images-duplicate" src="./images/gall_08.jpg" alt="" />
+          <img className="gallery-images-duplicate" src="./images/gall_09.jpg" alt="" />
         </div>
       </div>
     </div>

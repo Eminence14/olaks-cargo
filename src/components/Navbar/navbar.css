@@ -23,3 +23,17 @@
 .nav-container button:hover {
     background-color: #0a4177;
 }
+
+
+
+
+
+
+@media screen and (max-width: 375px) {
+    .nav-container {
+        justify-content: center;
+    }
+    .nav-container .nav-items {
+        display: none;
+    }
+}

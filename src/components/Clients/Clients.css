@@ -54,3 +54,30 @@
 .clients {
     gap: 2em;
 }
+
+@media screen and (max-width:375px) {
+  .testimony p {
+    width: 100%;
+    padding: 2.5em 2em 1.5em;
+    font-size: 1.1rem;
+    line-height: 1.9em;
+  }
+  .client {
+    top: -15px;
+    gap: 1em;
+    margin-left: 30px;
+  }
+  .client img {
+    width: 90px;
+    margin-left: 0px;
+  }
+  .client-info .name span:nth-child(1){
+    font-size: 1.1rem;
+  }
+  .clients {
+    flex-wrap: wrap;
+  }
+  .clients img {
+    width: 20%;
+  }
+}

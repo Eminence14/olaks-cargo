@@ -18,3 +18,22 @@
 .ready-container button {
     padding: 1.2em 3.5em;
 }
+
+@media screen and (max-width:375px) {
+    .ready-container {
+        flex-direction: column;
+        padding: 6em 0 4em;
+    }
+    .ready-container h4 {
+        font-size: 1.3rem;
+        line-height: 1.8em;
+    }
+    .ready-container p {
+    font-size: 1.3rem;
+    line-height: 1.5em;
+}
+.ready-container button {
+    width: 100%;
+    margin-top: 2em;
+}
+}
