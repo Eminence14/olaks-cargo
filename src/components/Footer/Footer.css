@@ -87,7 +87,7 @@ nav.footer-nav a:hover {
 }
 
 
-@media screen and (min-width: 600px) and (max-width: 1366px) {
+@media screen and (min-width: 600px) and (max-width: 1360px) {
  footer.flex {
   align-items: baseline;
   padding: 4em 1.5em;

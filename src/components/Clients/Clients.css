@@ -82,7 +82,7 @@
   }
 }
 
-@media screen and (min-width: 540px) and (max-width: 1366px) {
+@media screen and (min-width: 540px) and (max-width: 1360px) {
   .testimony p {
     width: 65dvw;
     font-size: 1.1rem;

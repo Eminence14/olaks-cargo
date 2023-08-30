@@ -37,7 +37,7 @@
         display: none;
     }
 }
-@media screen and (min-width: 540px) and (max-width: 1366px) {
+@media screen and (min-width: 540px) and (max-width: 1360px) {
     .nav-container .nav-items {
         display: none;
     }

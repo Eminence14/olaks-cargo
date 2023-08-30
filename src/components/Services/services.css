@@ -37,7 +37,7 @@
   }
 }
 
-@media screen and (min-width: 540px) and (max-width: 1366px) {
+@media screen and (min-width: 540px) and (max-width: 1360px) {
     .services {
       flex-wrap: wrap;
       margin: 2.5em;

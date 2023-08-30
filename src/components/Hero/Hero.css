@@ -133,7 +133,7 @@
 
 
 
-@media screen and (min-width: 540px) and (max-width: 1366px) {
+@media screen and (min-width: 540px) and (max-width: 1360px) {
       .hero-container .swiper-slide .in-text > span:nth-child(1) {
     font-size: 2rem;
   }

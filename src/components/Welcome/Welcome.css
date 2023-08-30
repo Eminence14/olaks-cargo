@@ -75,7 +75,7 @@
 }
 
 
-@media screen and (min-width: 540px) and (max-width: 1366px) {
+@media screen and (min-width: 540px) and (max-width: 1360px) {
   .welcome-cards {
     gap: 1em;
   }

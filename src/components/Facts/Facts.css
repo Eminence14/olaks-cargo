@@ -65,7 +65,7 @@
   }
 }
 
-@media screen and (min-width: 540px) and (max-width: 1366px) {
+@media screen and (min-width: 540px) and (max-width: 1360px) {
   .facts-container header h4 {
     font-size: 0.8rem;
   }
