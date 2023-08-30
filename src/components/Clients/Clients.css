@@ -34,7 +34,7 @@
 }
 .client-info {
   align-items: flex-start;
-  gap: .5em;
+  gap: 0.5em;
 }
 .client-info .name span {
   display: block;
@@ -49,13 +49,13 @@
   color: #dcdcdc;
 }
 .rating {
-    color: #777;
+  color: #777;
 }
 .clients {
-    gap: 2em;
+  gap: 2em;
 }
 
-@media screen and (max-width:375px) {
+@media screen and (max-width: 540px) {
   .testimony p {
     width: 100%;
     padding: 2.5em 2em 1.5em;
@@ -71,8 +71,28 @@
     width: 90px;
     margin-left: 0px;
   }
-  .client-info .name span:nth-child(1){
+  .client-info .name span:nth-child(1) {
     font-size: 1.1rem;
+  }
+  .clients {
+    flex-wrap: wrap;
+  }
+  .clients img {
+    width: 20%;
+  }
+}
+
+@media screen and (min-width: 540px) and (max-width: 1366px) {
+  .testimony p {
+    width: 65dvw;
+    font-size: 1.1rem;
+  }
+  .client {
+    top: -20px;
+    gap: 1em;
+  }
+  .client img {
+    width: 100px;
   }
   .clients {
     flex-wrap: wrap;

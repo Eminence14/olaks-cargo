@@ -59,7 +59,7 @@
   font-size: 1.1rem;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 540px) {
   .welcome .welcome-cards {
     flex-direction: column;
     gap: 0;
@@ -72,4 +72,16 @@
       rgba(0, 0, 0, 0.7)
     );
   }
+}
+
+
+@media screen and (min-width: 540px) and (max-width: 1366px) {
+  .welcome-cards {
+    gap: 1em;
+  }
+  .welcome-card img {
+      object-fit: cover;
+      width: 100%;
+      height: 400px;
+    }
 }

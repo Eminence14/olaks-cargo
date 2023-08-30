@@ -60,11 +60,11 @@ nav.footer-nav a:hover {
   background-color: #323232;
 }
 
-@media screen and (max-width: 375px) {
-  footer {
+@media screen and (max-width: 600px) {
+  footer.flex {
     flex-direction: column;
     align-items: flex-start;
-    padding: 0 1em;
+    padding: 0 2em 3em;
   }
   .footer-desc p {
     font-size: 1rem;
@@ -84,4 +84,12 @@ nav.footer-nav a:hover {
   .social-icons {
     padding: 0.8em;
   }
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 1366px) {
+ footer.flex {
+  align-items: baseline;
+  padding: 4em 1.5em;
+ }   
 }

@@ -29,12 +29,21 @@
   gap: 2.5em 0;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 540px) {
   .looking_for-wrapper {
     margin-top: 10em;
   }
   .row1, .row2{
     flex-direction: column;
     gap: 2em;
+  }
+}
+
+@media screen and (min-width: 540px) and (max-width: 1366px) {
+  .looking_for-wrapper {
+    margin: 5em;
+  }  
+  .row1, .row2{
+    gap: .5em;
   }
 }

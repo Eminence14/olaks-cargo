@@ -1,39 +1,39 @@
 .ready-wrapper {
-    background-color: #f8f8f8;
+  background-color: #f8f8f8;
 }
 .ready-container {
-    margin: 0 1em;
-    padding: 6em 0;
-    justify-content: space-between;
+  margin: 0 1em;
+  padding: 6em 0;
+  justify-content: space-between;
 }
 .ready-container h4 {
-    font-family: MontVar, sans-serif;
-    font-weight: bold;
-    margin-bottom: 1em;
+  font-family: MontVar, sans-serif;
+  font-weight: bold;
+  margin-bottom: 1em;
 }
 .ready-container p {
-    color: #a3a3a3;
-    font-size: 1.2rem;
+  color: #a3a3a3;
+  font-size: 1.2rem;
 }
 .ready-container button {
-    padding: 1.2em 3.5em;
+  padding: 1.2em 3.5em;
 }
 
-@media screen and (max-width:375px) {
-    .ready-container {
-        flex-direction: column;
-        padding: 6em 0 4em;
-    }
-    .ready-container h4 {
-        font-size: 1.3rem;
-        line-height: 1.8em;
-    }
-    .ready-container p {
+@media screen and (max-width: 600px) {
+  .ready-container {
+    flex-direction: column;
+    padding: 6em 0 4em;
+  }
+  .ready-container h4 {
+    font-size: 1.3rem;
+    line-height: 1.8em;
+  }
+  .ready-container p {
     font-size: 1.3rem;
     line-height: 1.5em;
-}
-.ready-container button {
+  }
+  .ready-container button {
     width: 100%;
     margin-top: 2em;
-}
+  }
 }

@@ -4,7 +4,6 @@
 }
 .service-card {
   gap: 0.8em;
-  align-items: flex-start;
   padding: 2.7em;
 }
 .service-card h5 {
@@ -23,7 +22,7 @@
 }
 
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 540px) {
   .services {
     flex-direction: column;
     margin: 2em 0em;
@@ -36,4 +35,15 @@
   .service-card p {
     font-size: 1rem;
   }
+}
+
+@media screen and (min-width: 540px) and (max-width: 1366px) {
+    .services {
+      flex-wrap: wrap;
+      margin: 2.5em;
+    }
+    .service-card {
+      width: 50%;
+      align-items: flex-start;
+    }
 }
