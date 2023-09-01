@@ -1,44 +1,39 @@
 .nav-container {
-    background: #181834;
-    justify-content: space-between;
-    padding: 0 2em;
-    height: 125px;
+  background: #181834;
+  justify-content: space-between;
+  padding: 0 2em;
+  height: 125px;
 }
 .nav-container nav {
-    gap: 3em;
+  gap: 3em;
 }
 .nav-container a {
-    color: white;
-    font-weight: bold;
-    font-size: .8rem;
+  color: white;
+  font-weight: bold;
+  font-size: 0.8rem;
 }
 .nav-container button {
-    padding: 1.2em 1.7em;
-    background-color: #0d5195;
-    transition: all 200ms ease-in;
-    font-family: 'Open sans', sans-serif;
-    font-size: 1em;
-    margin-left: 4em;
+  padding: 1.2em 1.7em;
+  background-color: #0d5195;
+  transition: all 200ms ease-in;
+  font-family: "Open sans", sans-serif;
+  font-size: 1em;
+  margin-left: 4em;
 }
 .nav-container button:hover {
-    background-color: #0a4177;
+  background-color: #0a4177;
 }
-
-
-
-
-
 
 @media screen and (max-width: 540px) {
-    .nav-container {
-        justify-content: center;
-    }
-    .nav-container .nav-items {
-        display: none;
-    }
+  .nav-container {
+    justify-content: center;
+  }
+  .nav-container .nav-items {
+    display: none;
+  }
 }
 @media screen and (min-width: 540px) and (max-width: 1360px) {
-    .nav-container .nav-items {
-        display: none;
-    }
+  .nav-container .nav-items {
+    display: none;
+  }
 }

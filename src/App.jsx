@@ -25,7 +25,7 @@ function App() {
       </div>
       <Facts />
       <Clients />
-      <Ready/>
+      <Ready />
       <Footer />
     </div>
   );

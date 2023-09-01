@@ -64,6 +64,11 @@
     flex-direction: column;
     gap: 0;
   }
+  .welcome-card img {
+    object-fit: cover;
+    width: 100svw;
+    height: 100%;
+  }
   .welcome-card:hover .card-overlay {
     background: linear-gradient(
       rgba(0, 0, 0, 0.1),
@@ -74,14 +79,13 @@
   }
 }
 
-
 @media screen and (min-width: 540px) and (max-width: 1360px) {
   .welcome-cards {
     gap: 1em;
   }
   .welcome-card img {
-      object-fit: cover;
-      width: 100%;
-      height: 400px;
-    }
+    object-fit: cover;
+    width: 100%;
+    height: 400px;
+  }
 }
